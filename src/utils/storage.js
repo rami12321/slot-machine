@@ -1,4 +1,3 @@
-// src/utils/storage.js
 export function saveBalance(n) {
   try { localStorage.setItem('slot_balance_v1', String(n)) } catch(e) {}
 }
